@@ -1,6 +1,6 @@
-site :opscode
+source "https://supermarket.getchef.com"
 
 metadata
-cookbook 'chocolatey', github: 'chocolatey/chocolatey-cookbook'
-cookbook 'windows', github: 'joefitzgerald/windows'
-cookbook 'minitest-handler', github: 'btm/minitest-handler-cookbook'
+cookbook 'chocolatey', '~> 0.2.0'
+cookbook 'windows', '~> 1.34.6'
+cookbook 'minitest-handler', '~> 1.3.2'
